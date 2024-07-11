@@ -1,0 +1,25 @@
+.container {
+    display: grid;
+    grid-template-rows: 150px 150px;
+    grid-template-columns: 150px 150px;
+    gap: 25px;
+    height: 600px;
+    place-content: center;
+
+}
+.container-color {
+    display: grid;
+    grid-template-rows: 150px 150px;
+    grid-template-columns: 150px 150px;
+    gap: 25px;
+    height: 325px;
+    width: 325px;
+    background-color: #64a93e;
+}
+
+.item {
+    font-size: 2.5rem;
+    align-self: end;
+    justify-self: end;
+    background-color: #37631f;
+}
